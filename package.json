@@ -1,0 +1,17 @@
+{
+  "name": "klava",
+  "version": "1.0.0",
+  "description": "scripts for klava",
+  "main": "_",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roman Volkov",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2"
+  }
+}
