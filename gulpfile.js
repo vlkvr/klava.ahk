@@ -14,7 +14,7 @@ gulp.task('del-ac', function() {
 
 // Задача: собираем все автозамены в один файл "ac.ahk"
 gulp.task('concat-ac', ['del-ac'], function() {
-  return gulp.src(['./**/autocorrect/*-header.ahk', './**/autocorrect/*-invar-*.ahk'])
+  return gulp.src(['./**/autocorrect/*-header.ahk', './**/autocorrect/*-invar-!.ahk', './**/autocorrect/*-invar-*.ahk'])
   .pipe(concat('ac.ahk'))
   .pipe(gulp.dest('./build/'));
 });
